@@ -43,7 +43,7 @@ class Auth extends CI_Controller
         $user = $this->db->get_where('user', ['email' => $email])->row_array();
 
         if ($user) {
-            if (password_verify($password, $user['Password'])) {
+            if (password_verify($password, $user['password'])) {
                 $data = [
                     'Email' => $user['email'],
                     'Role' => $user['Role'],
