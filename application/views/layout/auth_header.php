@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Hanami Learning | Login & Signup Form</title>
-    <link rel="shortcut icon" href="<?= base_url('assets/images/') ?>/" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url('assets/images/hanami-learning-favicon-color_logo.ico.png') ?>/" type="image/x-icon">
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -31,8 +31,8 @@
 
     .wrapper {
       overflow: hidden;
-      max-width: 400px; /* Set the maximum width of the wrapper */
-      margin: 0 auto; /* Center the wrapper on the page */
+      max-width: 400px;
+      margin: 0 auto; 
       background: #fff;
       padding: 30px;
       border-radius: 5px;
