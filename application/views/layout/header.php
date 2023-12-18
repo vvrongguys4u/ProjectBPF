@@ -68,12 +68,11 @@
                                 </div>
                                 <nav class="main_nav_contaner">
                                     <ul class="main_nav">
-                                        <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a href="courses.html">Courses</a></li>
-                                        <li><a href="instructors.html">Instructors</a></li>
-                                        <li><a href="#">Events</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li class="active"><a href="<?= base_url('dashboard');?>">Home</a></li>
+                                        <li><a href="<?= base_url('courses');?>">Courses</a></li>
+                                        <li><a href="<?= base_url('instructor');?>">Instructors</a></li>
+                                        <li><a href="<?= base_url('blog');?>">Blog</a></li>
+                                        <li><a href="<?= base_url('contact');?>">Contact</a></li>
                                     </ul>
                                 </nav>
                                 <div class="header_content_right ml-auto text-right">
@@ -89,7 +88,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="user"><a href="<?= site_url('welcome'); ?>"><i class="fa fa-user" aria-hidden="true"></i></a>
+                                    <div class="user"><a href="<?= site_url('account');?>"><i class="fa fa-user" aria-hidden="true"></i></a>
                                     </div>
                                     <div class="hamburger menu_mm">
                                         <i class="fa fa-bars menu_mm" aria-hidden="true"></i>

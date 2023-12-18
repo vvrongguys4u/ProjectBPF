@@ -1,5 +1,4 @@
 <!-- Home -->
-
 <div class="home"></div>
 
 <!-- Video -->
@@ -21,7 +20,7 @@
                                 </video>
                             </div>
                         </div>
-                        <div class="register_button"><a href="#">register</a></div>
+                        <div class="register_button"><a href="">register</a></div>
                     </div>
                 </div>
             </div>
@@ -240,7 +239,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
