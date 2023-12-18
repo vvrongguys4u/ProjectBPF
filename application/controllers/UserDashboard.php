@@ -13,7 +13,7 @@ class UserDashboard extends CI_Controller
   public function index()
   {
     $this->load->view("layout/user_header");
-    $this->load->view("contact/vw_contact");
+    $this->load->view("userdashboard/vw_userdashboard");
     $this->load->view("layout/user_footer");
   }
 
