@@ -1,6 +1,7 @@
-<footer>
-      <p>&copy; 2023 Hanami Learning. All Rights Reserved.</p>
-    </footer>
+
+<footer style="background: #fff; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%;">
+    <p style="margin: 0; color: #333;">&copy; 2023 Hanami Learning. All Rights Reserved.</p>
+</footer>
 
     <script>
       const loginText = document.querySelector(".title-text .login");

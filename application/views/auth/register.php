@@ -20,9 +20,9 @@
             </div>
             <div class="field btn">
               <div class="btn-layer"></div>
-              <input type="submit" value="Signup">
+              <input type="submit" value="Signup" text-aliign="center">
             </div>
-            <div class="signup-link">Already have an account? <a href="<?= base_url('auth'); ?>">Login now</a></div>
+            <div class="field">Already have an account? <a href="<?= base_url('auth'); ?>">Login now</a></div>
         </div>
       </div>
     </div>
