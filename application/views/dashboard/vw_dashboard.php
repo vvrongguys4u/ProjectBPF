@@ -5,7 +5,8 @@
             <div class="row">
                 <div class="col text-center">
                     <h1 class="home_title">Welcome to HanamiLearning!</h1>
-                        <h5>"Unlock Your Potential, Embrace Fluency. Your English Learning Odyssey Begins at Hanami Learning!"</h5>
+                    <h5>"Unlock Your Potential, Embrace Fluency. Your English Learning Odyssey Begins at Hanami
+                        Learning!"</h5>
                     <div class="home_button trans_200"><a href="#">Get Started!</a></div>
                 </div>
             </div>
@@ -38,7 +39,8 @@
                             </ul>
                         </div>
                         <div class="course_text">
-                            <p>The material in an English beginner class generally covers basic topics that help learners understand and use English in everyday life.</p>
+                            <p>The material in an English beginner class generally covers basic topics that help
+                                learners understand and use English in everyday life.</p>
                         </div>
                     </div>
                     <div class="course_footer d-flex flex-row align-items-center justify-content-start">
@@ -63,7 +65,8 @@
                             </ul>
                         </div>
                         <div class="course_text">
-                            <p>Intermediate Classes delve deeper into grammar, vocabulary, and etc. The focus is on bridging the gap between basic and advanced proficiency levels.</p>
+                            <p>Intermediate Classes delve deeper into grammar, vocabulary, and etc. The focus is on
+                                bridging the gap between basic and advanced proficiency levels.</p>
                         </div>
                     </div>
                     <div class="course_footer d-flex flex-row align-items-center justify-content-start">
@@ -88,7 +91,8 @@
                             </ul>
                         </div>
                         <div class="course_text">
-                            <p>An Advanced English class aims to enhance students' language proficiency to a higher level through, like Developing Writing Skills, and etc.</p>
+                            <p>An Advanced English class aims to enhance students' language proficiency to a higher
+                                level through, like Developing Writing Skills, and etc.</p>
                         </div>
                     </div>
                     <div class="course_footer d-flex flex-row align-items-center justify-content-start">
@@ -254,163 +258,111 @@
     </div>
 </div>
 
-<!-- Events -->
+< <!-- Blog -->
 
-<div class="events">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h2 class="section_title text-center">Upcoming Events</h2>
-            </div>
-        </div>
-        <div class="row events_row">
+    <div class="blog">
+        <div class="container">
+            <div class="row row-lg-eq-height">
 
-            <!-- Event -->
-            <div class="col-lg-4 event_col">
-                <div class="event">
-                    <div class="event_image"><img src="assets/images/event_1.jpg" alt=""></div>
-                    <div class="event_date d-flex flex-column align-items-center justify-content-center">
-                        <div class="event_day">13</div>
-                        <div class="event_month">Oct</div>
-                    </div>
-                    <div class="event_body d-flex flex-row align-items-center justify-content-start">
-                        <div class="event_title"><a href="#">English Day</a></div>
-                        <div class="event_tag ml-auto">Free</div>
-                    </div>
-                </div>
-            </div>
+                <!-- Blog Left -->
+                <div class="col-lg-6">
+                    <div class="blog_left">
+                        <div class="blog_title">From Our Blog</div>
+                        <div class="blog_text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu
+                                metus
+                                in, sagittis fringilla tortor.</p>
+                        </div>
+                        <div class="blog_categories">
+                            <div class="row categories_row">
 
-            <!-- Event -->
-            <div class="col-lg-4 event_col">
-                <div class="event">
-                    <div class="event_image"><img src="assets/images/event_2.jpg" alt=""></div>
-                    <div class="event_date d-flex flex-column align-items-center justify-content-center">
-                        <div class="event_day">25</div>
-                        <div class="event_month">dec</div>
-                    </div>
-                    <div class="event_body d-flex flex-row align-items-center justify-content-start">
-                        <div class="event_title"><a href="#">Christmas Day</a></div>
-                        <div class="event_tag ml-auto">Free</div>
-                    </div>
-                </div>
-            </div>
+                                <!-- Category -->
+                                <div class="col-md-4 blog_category_col">
+                                    <a href="blog.html">
+                                        <div class="blog_category">
+                                            <div class="blog_category_image"><img src="assets/images/blog_1.jpg" alt="">
+                                            </div>
+                                            <div class="blog_category_title">travel</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-            <!-- Event -->
-            <div class="col-lg-4 event_col">
-                <div class="event">
-                    <div class="event_image"><img src="assets/images/event_3.jpg" alt=""></div>
-                    <div class="event_date d-flex flex-column align-items-center justify-content-center">
-                        <div class="event_day">01</div>
-                        <div class="event_month">jan</div>
-                    </div>
-                    <div class="event_body d-flex flex-row align-items-center justify-content-start">
-                        <div class="event_title"><a href="#">Happy New Year</a></div>
-                        <div class="event_tag ml-auto">Free</div>
-                    </div>
-                </div>
-            </div>
+                                <!-- Category -->
+                                <div class="col-md-4 blog_category_col">
+                                    <a href="blog.html">
+                                        <div class="blog_category">
+                                            <div class="blog_category_image"><img src="assets/images/blog_2.jpg" alt="">
+                                            </div>
+                                            <div class="blog_category_title">languages</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-        </div>
-    </div>
-</div>
+                                <!-- Category -->
+                                <div class="col-md-4 blog_category_col">
+                                    <a href="blog.html">
+                                        <div class="blog_category">
+                                            <div class="blog_category_image"><img src="assets/images/blog_3.jpg" alt="">
+                                            </div>
+                                            <div class="blog_category_title">cultures</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-<!-- Blog -->
+                                <!-- Category -->
+                                <div class="col-md-4 blog_category_col">
+                                    <a href="blog.html">
+                                        <div class="blog_category">
+                                            <div class="blog_category_image"><img src="assets/images/blog_4.jpg" alt="">
+                                            </div>
+                                            <div class="blog_category_title">fashion</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-<div class="blog">
-    <div class="container">
-        <div class="row row-lg-eq-height">
+                                <!-- Category -->
+                                <div class="col-md-4 blog_category_col">
+                                    <a href="blog.html">
+                                        <div class="blog_category">
+                                            <div class="blog_category_image"><img src="assets/images/blog_5.jpg" alt="">
+                                            </div>
+                                            <div class="blog_category_title">cooking</div>
+                                        </div>
+                                    </a>
+                                </div>
 
-            <!-- Blog Left -->
-            <div class="col-lg-6">
-                <div class="blog_left">
-                    <div class="blog_title">From Our Blog</div>
-                    <div class="blog_text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus
-                            in, sagittis fringilla tortor.</p>
-                    </div>
-                    <div class="blog_categories">
-                        <div class="row categories_row">
-
-                            <!-- Category -->
-                            <div class="col-md-4 blog_category_col">
-                                <a href="blog.html">
-                                    <div class="blog_category">
-                                        <div class="blog_category_image"><img src="assets/images/blog_1.jpg" alt=""></div>
-                                        <div class="blog_category_title">travel</div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <!-- Category -->
-                            <div class="col-md-4 blog_category_col">
-                                <a href="blog.html">
-                                    <div class="blog_category">
-                                        <div class="blog_category_image"><img src="assets/images/blog_2.jpg" alt=""></div>
-                                        <div class="blog_category_title">languages</div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <!-- Category -->
-                            <div class="col-md-4 blog_category_col">
-                                <a href="blog.html">
-                                    <div class="blog_category">
-                                        <div class="blog_category_image"><img src="assets/images/blog_3.jpg" alt=""></div>
-                                        <div class="blog_category_title">cultures</div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <!-- Category -->
-                            <div class="col-md-4 blog_category_col">
-                                <a href="blog.html">
-                                    <div class="blog_category">
-                                        <div class="blog_category_image"><img src="assets/images/blog_4.jpg" alt=""></div>
-                                        <div class="blog_category_title">fashion</div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <!-- Category -->
-                            <div class="col-md-4 blog_category_col">
-                                <a href="blog.html">
-                                    <div class="blog_category">
-                                        <div class="blog_category_image"><img src="assets/images/blog_5.jpg" alt=""></div>
-                                        <div class="blog_category_title">cooking</div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <!-- Category -->
-                            <div class="col-md-4 blog_category_col">
-                                <a href="blog.html">
-                                    <div class="blog_category">
-                                        <div class="blog_category_image"><img src="assets/images/blog_6.jpg" alt=""></div>
-                                        <div class="blog_category_title">hobbies</div>
-                                    </div>
-                                </a>
+                                <!-- Category -->
+                                <div class="col-md-4 blog_category_col">
+                                    <a href="blog.html">
+                                        <div class="blog_category">
+                                            <div class="blog_category_image"><img src="assets/images/blog_6.jpg" alt="">
+                                            </div>
+                                            <div class="blog_category_title">hobbies</div>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Blog Right -->
-            <div class="col-lg-6">
-                <div class="blog_right">
-                    <div class="blog_image" style="background-image:url(assets/images/blog_7.jpg)"></div>
-                    <div class="blog_title_container">
-                        <div class="blog_right_category"><a href="#">travel</a></div>
-                        <div class="blog_right_title"><a href="blog_single.html">Design Better Forms</a></div>
-                        <div class="blog_right_text">
-                            <p>Whether it is a signup flow, a multi-view stepper, or a monotonous data entry interface,
-                                forms are one of the most important components of digital product design.</p>
+                <!-- Blog Right -->
+                <div class="col-lg-6">
+                    <div class="blog_right">
+                        <div class="blog_image" style="background-image:url(assets/images/blog_7.jpg)"></div>
+                        <div class="blog_title_container">
+                            <div class="blog_right_category"><a href="#">travel</a></div>
+                            <div class="blog_right_title"><a href="blog_single.html">Design Better Forms</a></div>
+                            <div class="blog_right_text">
+                                <p>Whether it is a signup flow, a multi-view stepper, or a monotonous data entry
+                                    interface,
+                                    forms are one of the most important components of digital product design.</p>
+                            </div>
+                            <div class="read_more"><a href="blog_single.html">Read More <img
+                                        src="assets/images/right.png" alt=""></a></div>
                         </div>
-                        <div class="read_more"><a href="blog_single.html">Read More <img src="assets/images/right.png"
-                                    alt=""></a></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
