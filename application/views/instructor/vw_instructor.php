@@ -137,72 +137,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="teacher d-flex flex-row align-items-center justify-content-start">
                         <div class="teacher_image">
-                            <div><img src="assets/images/instructor_7.jpg" alt=""></div>
-                        </div>
-                        <div class="teacher_content">
-                            <div class="teacher_name"><a href="instructors.html">Sarah Parker</a></div>
-                            <div class="teacher_title">Teacher</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Instructor -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="teacher d-flex flex-row align-items-center justify-content-start">
-                        <div class="teacher_image">
-                            <div><img src="assets/images/instructor_8.jpg" alt=""></div>
-                        </div>
-                        <div class="teacher_content">
-                            <div class="teacher_name"><a href="instructors.html">Sarah Parker</a></div>
-                            <div class="teacher_title">Teacher</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Instructor -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="teacher d-flex flex-row align-items-center justify-content-start">
-                        <div class="teacher_image">
-                            <div><img src="assets/images/instructor_9.jpg" alt=""></div>
-                        </div>
-                        <div class="teacher_content">
-                            <div class="teacher_name"><a href="instructors.html">Sarah Parker</a></div>
-                            <div class="teacher_title">Teacher</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Instructor -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="teacher d-flex flex-row align-items-center justify-content-start">
-                        <div class="teacher_image">
-                            <div><img src="assets/images/instructor_10.jpg" alt=""></div>
-                        </div>
-                        <div class="teacher_content">
-                            <div class="teacher_name"><a href="instructors.html">Sarah Parker</a></div>
-                            <div class="teacher_title">Teacher</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Instructor -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="teacher d-flex flex-row align-items-center justify-content-start">
-                        <div class="teacher_image">
-                            <div><img src="assets/images/instructor_11.jpg" alt=""></div>
-                        </div>
-                        <div class="teacher_content">
-                            <div class="teacher_name"><a href="instructors.html">Sarah Parker</a></div>
-                            <div class="teacher_title">Teacher</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Instructor -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="teacher d-flex flex-row align-items-center justify-content-start">
-                        <div class="teacher_image">
-                            <div><img src="assets/images/instructor_12.jpg" alt=""></div>
+                            <div><img src="assets/images/instructor_2.jpg" alt=""></div>
                         </div>
                         <div class="teacher_content">
                             <div class="teacher_name"><a href="instructors.html">Sarah Parker</a></div>
