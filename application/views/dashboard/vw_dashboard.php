@@ -47,7 +47,7 @@
                         <div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10</span></div>
                         <div class="course_rating ml-auto"><i class="fa fa-star" aria-hidden="true"></i><span>4,5</span>
                         </div>
-                        <div class="course_mark course_free trans_200"><a href="#">View</a></div>
+                        <div class="course_mark course_free trans_200"><a href="<?= base_url('class/beginner');?>">View</a></div>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                         <div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10</span></div>
                         <div class="course_rating ml-auto"><i class="fa fa-star" aria-hidden="true"></i><span>4,5</span>
                         </div>
-                        <div class="course_mark course_free trans_200"><a href="<?= base_url('courses');?>">View</a></div>
+                        <div class="course_mark course_free trans_200"><a href="<?= base_url('class/intermediate');?>">View</a></div>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                         <div class="course_title"><a href="course.html">Advanced Class</a></div>
                         <div class="course_info">
                             <ul>
-                                <li><a href="instructors.html">Alexa Holland</a></li>
+                                <li><a href="instructors.html">Abdi Alamsyah</a></li>
                                 <li><a href="#">15 Chapters</a></li>
                             </ul>
                         </div>
@@ -99,7 +99,7 @@
                         <div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10</span></div>
                         <div class="course_rating ml-auto"><i class="fa fa-star" aria-hidden="true"></i><span>4,5</span>
                         </div>
-                        <div class="course_mark course_free trans_200"><a href="#">View</a></div>
+                        <div class="course_mark course_free trans_200"><a href="<?= base_url('class/advanced');?>">View</a></div>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                     <div class="instructor_image_container">
                         <div class="instructor_image"><img src="assets/images/instructor_1.jpg" alt=""></div>
                     </div>
-                    <div class="instructor_name"><a href="instructors.html">Sarah Parker</a></div>
+                    <div class="instructor_name"><a href="instructors.html">Fadhilla Khairunnisa</a></div>
                     <div class="instructor_title">Teacher</div>
                     <div class="instructor_text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus
@@ -170,7 +170,7 @@
                     <div class="instructor_image_container">
                         <div class="instructor_image"><img src="assets/images/instructor_3.jpg" alt=""></div>
                     </div>
-                    <div class="instructor_name"><a href="instructors.html">Alexa Holland</a></div>
+                    <div class="instructor_name"><a href="instructors.html">Abdi Alamsyah</a></div>
                     <div class="instructor_title">Teacher</div>
                     <div class="instructor_text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus
