@@ -60,7 +60,7 @@
                         <div class="course_title"><a href="course.html">Intermediate Class</a></div>
                         <div class="course_info">
                             <ul>
-                                <li><a href="instructors.html">Sarah Parker</a></li>
+                                <li><a href="instructors.html">Fadhilla Khairnunnsa</a></li>
                                 <li><a href="#">22 Chapters</a></li>
                             </ul>
                         </div>
@@ -73,7 +73,7 @@
                         <div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10</span></div>
                         <div class="course_rating ml-auto"><i class="fa fa-star" aria-hidden="true"></i><span>4,5</span>
                         </div>
-                        <div class="course_mark course_free trans_200"><a href="#">View</a></div>
+                        <div class="course_mark course_free trans_200"><a href="<?= base_url('courses');?>">View</a></div>
                     </div>
                 </div>
             </div>
