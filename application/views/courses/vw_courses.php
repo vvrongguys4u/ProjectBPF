@@ -25,17 +25,17 @@
 				<!-- Course -->
 				<div class="col-lg-4 course_col">
 					<div class="course">
-						<div class="course_image"><img src="images/course_4.jpg" alt=""></div>
+						<div class="course_image"><img src="assets/images/thumbnailGVT.jpg" alt=""></div>
 						<div class="course_body">
-							<div class="course_title"><a href="course.html">Vocabulary</a></div>
+							<div class="course_title"><a href="course.html">Simple Present – Grammar & Verb Tenses</a></div>
 							<div class="course_info">
 								<ul>
-									<li><a href="instructors.html">Sarah Parker</a></li>
+									<li><a href="instructors.html">Ellii (formerly ESL Library)</a></li>
 									<li><a href="#">English</a></li>
 								</ul>
 							</div>
 							<div class="course_text">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla.</p>
+								<p>Learn all about the simple present verb tense in this Ellii grammar video! This clear explanation will help you understand when and why to use simple present verbs. You will also learn how different subject pronouns and nouns affect the verb form. This video includes a practice exercise at the end. Happy studying!</p>
 							</div>
 						</div>
 						<div class="course_footer d-flex flex-row align-items-center justify-content-start">
