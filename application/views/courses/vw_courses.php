@@ -24,7 +24,7 @@
 
 				<!-- Course -->
 				<div class="col-lg-4 course_col">
-					<div class="course">
+					<div class="course-intermediate">
 						<div class="course_image"><img src="assets/images/thumbnailGVT.jpg" alt=""></div>
 						<div class="course_body">
 							<div class="course_title"><a href="course.html">Simple Present – Grammar & Verb Tenses</a></div>
@@ -51,7 +51,7 @@
 
 				<!-- Course2 -->
 				<div class="col-lg-4 course_col">
-					<div class="course">
+					<div class="course-intermediate">
 						<div class="course_image"><img src="assets/images/thumbnailGVT2.jpg" alt=""></div>
 						<div class="course_body">
 							<div class="course_title"><a href="course.html">Simple Past – Grammar & Verb Tenses</a></div>
@@ -78,7 +78,7 @@
 
 				<!-- Course3 -->
 				<div class="col-lg-4 course_col">
-					<div class="course">
+					<div class="course-intermediate">
 						<div class="course_image"><img src="assets/images/thumbnailGVT3.jpg" alt=""></div>
 						<div class="course_body">
 							<div class="course_title"><a href="course.html">Simple Future with Will – Grammar & Verb Tenses</a></div>
@@ -98,14 +98,14 @@
 							<div class="course_rating ml-auto"><i class="fa fa-star"
 									aria-hidden="true"></i><span>4,5</span>
 							</div>
-							<div class="course_mark trans_200"><a href="#">$45</a></div>
+							<div class="course_mark trans_200"><a href="#">Free</a></div>
 						</div>
 					</div>
 				</div>
 
 				<!-- Course4 -->
 			<div class="col-lg-4 course_col">
-					<div class="course">
+					<div class="course-intermediate">
 						<div class="course_image"><img src="assets/images/thumbnailGVT4.jpg" alt=""></div>
 						<div class="course_body">
 							<div class="course_title"><a href="course.html">The Super Easy Way to Learn Pronouns in English | Types of Pronouns | List of Pronouns with Examples</a></div>
@@ -128,14 +128,14 @@
 							<div class="course_rating ml-auto"><i class="fa fa-star"
 									aria-hidden="true"></i><span>4,5</span>
 							</div>
-							<div class="course_mark trans_200"><a href="#">$45</a></div>
+							<div class="course_mark trans_200"><a href="#">Free</a></div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Course5 -->
+				<!-- Course-Intermediate 5 -->
 			<div class="col-lg-4 course_col">
-					<div class="course">
+					<div class="course-intermediate">
 						<div class="course_image"><img src="assets/images/thumbnailGVT5.jpg" alt=""></div>
 						<div class="course_body">
 							<div class="course_title"><a href="course.html">Prepositions of Place – English Grammar Lessons</a></div>
@@ -155,17 +155,40 @@
 							<div class="course_rating ml-auto"><i class="fa fa-star"
 									aria-hidden="true"></i><span>4,5</span>
 							</div>
-							<div class="course_mark trans_200"><a href="#">$45</a></div>
+							<div class="course_mark trans_200"><a href="#">Free</a></div>
 						</div>
 					</div>
 				</div>
 			</div>
-			</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<div class="load_more_button"><a href="#">load more</a></div>
+
+				<!-- Course-Beginner 1 -->
+			<div class="col-lg-4 course_col">
+					<div class="course-beginner">
+						<div class="course_image"><img src="assets/images/thumbnailBeginner1.jpg" alt=""></div>
+						<div class="course_body">
+							<div class="course_title"><a href="course.html">Basic English Vocabulary: COLORS</a></div>
+							<div class="course_info">
+								<ul>
+									<li><a href="instructors.html">English with Ronnie · EnglishLessons4U</a></li>
+									<li><a href="#">English</a></li>
+								</ul>
+							</div>
+							<div class="course_text">
+								<p>Easy English Lesson for Beginners – Learn the basic colors in English! There is a way to remember all the colors of the rainbow: ROYGBIV. Each of those letters represents a color. Do you know each one of them? If not, watch this vocabulary lesson to add to your English vocabulary! You will learn about the primary colors and how to mix them together to get secondary colors. These are essential words you can start using today to describe all sorts of things like, for example, paint, pencils, hair, pictures, flags, cars, and virtually anything else.</p>
+							</div>
+						</div>
+						<div class="course_footer d-flex flex-row align-items-center justify-content-start">
+							<div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10</span>
+							</div>
+							<div class="course_rating ml-auto"><i class="fa fa-star"
+									aria-hidden="true"></i><span>4,5</span>
+							</div>
+							<div class="course_mark trans_200"><a href="#">Free</a></div>
+						</div>
+					</div>
 				</div>
+				
+				
 			</div>
 		</div>
 	</div>	
