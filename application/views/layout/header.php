@@ -78,7 +78,7 @@
                                 </nav>
                                 <div class="header_content_right ml-auto text-right">
                                     <div class="user dropdown">
-                                        <div class="user_greeting">
+                                        <div class="user_greeting ml-2">
                                         <?php
                                             if ($this->session->userdata('email')) {
                                             echo 'Halo, ' . $this->session->userdata('email');
