@@ -102,7 +102,7 @@
 
                     <!-- Hamburger -->
                     <div class="hamburger menu_mm">
-                    <a href="<?= base_url('userdashboard'); ?>">
+                    <a href="<?= base_url('statistic'); ?>">
                         <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
                     </div>
                 </div>
