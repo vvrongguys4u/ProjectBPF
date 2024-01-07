@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 // Don't forget include/define REST_Controller path
 
-class Classes extends CI_Controller
+class Intermediate extends CI_Controller
 {
 
   public function __construct()
@@ -13,7 +13,7 @@ class Classes extends CI_Controller
   public function index()
   {
     $this->load->view("layout/header");
-    $this->load->view("class/vw_class");
+    $this->load->view("course/intermediate/vw_intermediate");
     $this->load->view("layout/footer");
   }
 

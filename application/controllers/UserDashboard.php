@@ -1,20 +1,19 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-// Don't forget include/define REST_Controller path
 
 class UserDashboard extends CI_Controller
 {
 
-  public function __construct()
-  {
-    parent::__construct();
-  }
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->model('Dashboard_model'); // Pastikan ini telah diatur dengan benar
+    }
 
-  public function index()
-  {
-    $this->load->view("layout/user_header");
-    $this->load->view("userdashboard/vw_userdashboard");
-    $this->load->view("layout/user_footer");
-  }
-
+    public function index()
+    {
+        $this->load->view("layout/header");
+        $this->load->view("userDashboard/vw_userDashboard");
+        $this->load->view("layout/footer");
+    }
 }

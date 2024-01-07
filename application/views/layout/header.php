@@ -32,7 +32,8 @@
                         <div class="row">
                             <div class="col">
                                 <div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
-                                    <div class="top_bar_phone"><span class="top_bar_title">phone:</span>+62 859 1066 60407
+                                    <div class="top_bar_phone"><span class="top_bar_title">phone:</span>+62 859 1066
+                                        60407
                                     </div>
                                     <div class="top_bar_right ml-auto">
 
@@ -68,74 +69,84 @@
                                 </div>
                                 <nav class="main_nav_contaner">
                                     <ul class="main_nav">
-                                        <li class="active"><a href="<?= base_url('dashboard');?>">Home</a></li>
-                                        <li><a href="<?= base_url('courses');?>">Courses</a></li>
-                                        <li><a href="<?= base_url('instructor');?>">Instructors</a></li>
-                                        <li><a href="<?= base_url('blog');?>">Blog</a></li>
-                                        <li><a href="<?= base_url('contact');?>">Contact</a></li>
+                                        <li class="active"><a href="<?= base_url('dashboard'); ?>">Home</a></li>
+                                        <li class="active"><a href="<?= base_url('courses'); ?>">Courses</a></li>
+                                        <li class="active"><a href="<?= base_url('instructor'); ?>">Instructors</a></li>
+                                        <li class="active"><a href="<?= base_url('blog'); ?>">Blog</a></li>
+                                        <li class="active"><a href="<?= base_url('contact'); ?>">Contact</a></li>
                                     </ul>
                                 </nav>
                                 <div class="header_content_right ml-auto text-right">
-                                    <div class="header_search">
-                                        <div class="search_form_container">
-                                            <form action="#" id="search_form" class="search_form trans_400">
-                                                <input type="search" class="header_search_input trans_400"
-                                                    placeholder="Type for Search" required="required">
-                                                <div class="search_button">
-                                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                                </div>
-                                            </form>
+                                    <div class="user dropdown">
+                                        <div class="user_greeting">
+                                        <?php
+                                            if ($this->session->userdata('email')) {
+                                            echo 'Halo, ' . $this->session->userdata('email');
+                                            } else {
+                                            echo 'Pengguna tidak login';
+                                            }
+                                        ?>
+                                        </div>
+                                        <a href="#" role="button" id="userDropdown" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                        </a>
+
+                                        <div class="dropdown-menu" aria-labelledby="userDropdown">
+                                            <a class="dropdown-item" href="<?= site_url('dashboard'); ?>">Dashboard</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="<?= site_url('logout'); ?>">Logout</a>
                                         </div>
                                     </div>
+                                </div>
 
-                                    <div class="user"><a href="<?= site_url('account');?>"><i class="fa fa-user" aria-hidden="true"></i></a>
-                                    </div>
-                                    <div class="hamburger menu_mm">
-                                        <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
-                                    </div>
+                                <div class="hamburger menu_mm">
+                                    <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+    </div>
+    </div>
+    </header>
 
-        <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
-            <div class="menu_close_container">
-                <div class="menu_close">
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-            <div class="search">
-                <form action="#" class="header_search_form menu_mm">
-                    <input type="search" class="search_input menu_mm" placeholder="Search" required="required">
-                    <button
-                        class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
-                        <i class="fa fa-search menu_mm" aria-hidden="true"></i>
-                    </button>
-                </form>
-            </div>
-            <nav class="menu_nav">
-                <ul class="menu_mm">
-                    <li class="menu_mm"><a href="index.html">Home</a></li>
-                    <li class="menu_mm"><a href="courses.html">Courses</a></li>
-                    <li class="menu_mm"><a href="instructors.html">Instructors</a></li>
-                    <li class="menu_mm"><a href="#">Events</a></li>
-                    <li class="menu_mm"><a href="blog.html">Blog</a></li>
-                    <li class="menu_mm"><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="menu_extra">
-                <div class="menu_phone"><span class="menu_title">phone:</span>+62 859 1066 60407</div>
-                <div class="menu_social">
-                    <span class="menu_title">follow us</span>
-                    <ul>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
+    <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+        <div class="menu_close_container">
+            <div class="menu_close">
+                <div></div>
+                <div></div>
             </div>
         </div>
+        <div class="search">
+            <form action="#" class="header_search_form menu_mm">
+                <input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+                <button
+                    class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+                    <i class="fa fa-search menu_mm" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>
+        <nav class="menu_nav">
+            <ul class="menu_mm">
+                <li class="menu_mm"><a href="index.html">Home</a></li>
+                <li class="menu_mm"><a href="courses.html">Courses</a></li>
+                <li class="menu_mm"><a href="instructors.html">Instructors</a></li>
+                <li class="menu_mm"><a href="#">Events</a></li>
+                <li class="menu_mm"><a href="blog.html">Blog</a></li>
+                <li class="menu_mm"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu_extra">
+            <div class="menu_phone"><span class="menu_title">phone:</span>+62 859 1066 60407</div>
+            <div class="menu_social">
+                <span class="menu_title">follow us</span>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
