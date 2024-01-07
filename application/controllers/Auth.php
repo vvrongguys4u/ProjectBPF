@@ -38,22 +38,19 @@ class Auth extends CI_Controller
 
     public function cek_login()
     {
-        $email = $this->input->post('email');
+        $email = strtolower($this->input->post('email')); // ubah ke huruf kecil
         $password = $this->input->post('password');
         $user = $this->db->get_where('user', ['email' => $email])->row_array();
-
-        // var_dump($user);
-        // var_dump(password_verify($password, $user['Password']));
-
+    
         if ($user) {
             if (password_verify($password, $user['Password'])) {
                 $data = [
-                    'Email' => $user['email'],
+                    'Email' => $user['Email'],
                     'Role' => $user['Role'],
                     'id' => $user['id'],
                 ];
                 $this->session->set_userdata($data);
-                redirect('Dashboard');
+                redirect('userdashboard');
             } else {
                 $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Incorrect password!</div>');
                 redirect('auth');
@@ -63,6 +60,7 @@ class Auth extends CI_Controller
             redirect('auth');
         }
     }
+    
 
     public function logout()
     {
