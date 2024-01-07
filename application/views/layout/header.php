@@ -93,9 +93,9 @@
                                         </a>
 
                                         <div class="dropdown-menu" aria-labelledby="userDropdown">
-                                            <a class="dropdown-item" href="<?= site_url('dashboard'); ?>">Dashboard</a>
+                                            <a class="dropdown-item" href="<?= base_url('dashboard'); ?>">Dashboard</a>
                                             <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="<?= site_url('logout'); ?>">Logout</a>
+                                            <a class="dropdown-item" href="<?= base_url('logout'); ?>">Logout</a>
                                         </div>
                                     </div>
                                 </div>
