@@ -222,7 +222,7 @@
 					<div class="course-beginner">
 						<div class="course_image"><img src="assets/images/thumbnailBeginner3.jpg" alt=""></div>
 						<div class="course_body">
-							<div class="course_title"><a href="course.html">Beginner 2 English Course: Calendar Vocabulary - Days, Weeks, Months, Years, and Seasons</a></div>
+							<div class="course_title"><a href="course.html">Calendar Vocabulary - Days, Weeks, Months, Years</a></div>
 							<div class="course_info">
 								<ul>
 									<li><a href="instructors.html">Shaw English Online</a></li>
@@ -230,7 +230,7 @@
 								</ul>
 							</div>
 							<div class="course_text">
-								<p>Learn basic calendar vocabulary. This is from the Beginner 2 English grammar series by Robin Shaw.</p>
+								<p>Learn basic calendar vocabulary. This is from the Beginner 2 English grammar series by Robin Shaw. Happy Studying hope you enjoy and understand.</p>
 							</div>
 						</div>
 						<div class="course_footer d-flex flex-row align-items-center justify-content-start">
@@ -276,7 +276,7 @@
 			</div>
 			</div>
 				
-		<div class="courses-beginner">
+		<div class="courses-advance">
 			<div class="container">
 				<div class="row courses_row">
 
