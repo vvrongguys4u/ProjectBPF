@@ -98,6 +98,12 @@
 <script src="<? base_url('assets/') ?>plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="<? base_url('assets/') ?>plugins/easing/easing.js"></script>
 <script src="<? base_url('assets/') ?>js/custom.js"></script>
+<script>
+    $(document).ready(function() {
+        $('[data-toggle="dropdown"]').dropdown();
+    });
+</script>
+
 
 <!-- Tambahkan script ini di bagian bawah body tag -->
 <script>

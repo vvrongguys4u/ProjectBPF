@@ -79,11 +79,13 @@
                                 <div class="header_content_right ml-auto text-right">
                                     <div class="user dropdown">
                                         <div class="user_greeting">
-                                            <?php
+                                        <?php
                                             if ($this->session->userdata('email')) {
-                                                echo 'Hello, ' . $this->session->userdata('email');
+                                            echo 'Halo, ' . $this->session->userdata('email');
+                                            } else {
+                                            echo 'Pengguna tidak login';
                                             }
-                                            ?>
+                                        ?>
                                         </div>
                                         <a href="#" role="button" id="userDropdown" data-toggle="dropdown"
                                             aria-haspopup="true" aria-expanded="false">

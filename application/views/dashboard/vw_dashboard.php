@@ -240,7 +240,50 @@
     </div>
 </div>
 
-< <!-- Blog -->
+<!-- Forum Chat -->
+<div class="blog">
+    <div class="container">
+        <div class="row row-lg-eq-height">
+
+            <!-- Forum Chat Left -->
+            <div class="col-lg-6">
+                <div class="blog_left text-center"> <!-- Added text-center class for center alignment -->
+                    <div class="blog_title">The Forum Chat</div>
+                    <div class="blog_text">
+                        <p>Our chat forum is the place where the community gathers to communicate, share information,
+                            and engage in diverse discussions. With a user-friendly interface, you can easily join
+                            conversation channels that align with your interests and topics.
+
+                            In this forum, you can create posts, exchange thoughts with other members, and get answers
+                            to your questions. Voice and video facilities enable more in-depth interactions, while
+                            features like emojis and reactions add an extra dimension to expressions in conversations.
+
+                            We invite you to join our community and be part of the dynamic chat. Explore the various
+                            available channels and discover topics that pique your interest.
+                    </div>
+                    
+                    <div class="blog_categories">
+                        <div class="row categories_row justify-content-center">
+                            <!-- Added button to redirect to Discord link -->
+                            <a href="https://discord.gg/SjRX7y9V" target="_blank" class="btn btn-primary">Join Discord</a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="blog_right">
+                    <div class="blog_image"
+                        style="background-image:url(https://img.huffingtonpost.com/asset/5e7b856d240000660bcea485.jpeg?cache=o7bvEgPrzP&ops=1778_1000)">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Blog -->
 
     <div class="blog">
         <div class="container">
@@ -281,119 +324,89 @@
     </div>
 </div>
 
-<!-- Contact -->
+<!-- Google Map and Contact -->
+<div class="map-and-contact">
+    <div class="container">
+        <div class="row row-lg-eq-height">
+            <!-- Map -->
+            <div class="col-lg-6 order-lg-2">
+                <div class="map">
+                    <div id="google_map" class="google_map">
+                        <div class="map_container">
+                            <!-- Tautan langsung ke peta Google -->
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.62020554542!2d101.42352197447416!3d0.5709805635852523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5ab67086f2e89%3A0x65a24264fec306bb!2sPoliteknik%20Caltex%20Riau!5e0!3m2!1sen!2sid!4v1704548704947!5m2!1sen!2sid"
+                                width="800" height="470" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<!DOCTYPE html>
-<html lang="en">
+            <!-- Contact -->
+            <div class="col-lg-5 mt-4 order-lg-1">
+                <div class="contact">
+                    <div class="contact_details">
+                        <div class="contact_details_title">
+                            <h2>Contact Details</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <svg fill="rgba(0,0,0,0.4)" height="24" viewBox="0 0 24 24" width="24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Icon SVG atau teks lainnya untuk jam operasional -->
+                                </svg>
+                                <span>9:00 AM - 18:00 PM</span>
+                            </li>
+                            <li>
+                                <svg fill="rgba(0,0,0,0.4)" height="24" viewBox="0 0 24 24" width="24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Icon SVG atau teks lainnya untuk nomor telepon -->
+                                </svg>
+                                <span>+62 859 1066 60407</span>
+                            </li>
+                            <li>
+                                <svg fill="rgba(0,0,0,0.4)" height="24" viewBox="0 0 24 24" width="24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Icon SVG atau teks lainnya untuk alamat email -->
+                                </svg>
+                                <span>info@hanamilearning.com</span>
+                            </li>
+                            <li>
+                                <svg fill="rgba(0,0,0,0.4)" height="24" viewBox="0 0 24 24" width="24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Icon SVG atau teks lainnya untuk alamat fisik -->
+                                </svg>
+                                <span>St. Umban Sari No 1, Umban Sari, Pekanbaru City</span>
+                            </li>
+                        </ul>
+                    </div>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Your Blog Title</title>
-	<style>
-		.blog_row {
-			display: flex;
-			flex-wrap: wrap;
-		}
-
-		.blog_post {
-			flex: 0 0 48%;
-			margin: 1%;
-			display: flex;
-			background-size: cover;
-			background-position: center;
-			color: #fff;
-			overflow: hidden;
-			/* Menangani gambar yang besar */
-		}
-
-		.blog_image {
-			flex: 0 0 50%;
-
-			background-size: cover;
-			background-position: center;
-		}
-
-		.blog_content {
-			flex: 0 0 50%;
-			padding: 20px;
-			box-sizing: border-box;
-		}
-
-		.blog_post_title {
-			font-size: 24px;
-			margin-bottom: 10px;
-		}
-
-		.blog_post_text {
-			font-size: 16px;
-			line-height: 1;
-			margin-bottom: 5px;
-		}
-
-		.read_more {
-			display: inline-block;
-			font-size: 14px;
-			text-decoration: none;
-			color: #fff;
-			padding: 5px 10px;
-			background-color: #333;
-			border-radius: 5px;
-		}
-
-		.read_more:hover {
-			background-color: #555;
-		}
-	</style>
-</head>
-
-<body>
-	<div class="container">
-		<div class="row categories_row blog_row">
-			<!-- Blog Post 1 -->
-			<div class="col-lg-6">
-				<div class="blog_post">
-					<div class="blog_image"
-						style="background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220215/pngtree-solid-color-simple-background-with-photo-frame-left-blank-image_975624.jpg');">
-					</div>
-					<div class="blog_content">
-						<div class="blog_post_title"><a
-								href="https://merdeka-filkom.ub.ac.id/indonesian-international-student-mobility-award-iisma-2023/">IISMA
-								Registration</a></div>
-						<div class="blog_post_text">
-							<p>IISMA (Indonesian International Student Mobility Award) is an Indonesian Government
-								scholarship scheme to fund Indonesian student mobility programs to overseas
-								universities. </p>
-							<a href="https://merdeka-filkom.ub.ac.id/indonesian-international-student-mobility-award-iisma-2023/"
-								class="read_more">Read More <img src="assets/images/right.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Blog Post 2 -->
-			<div class="col-lg-6">
-				<div class="blog_post">
-					<div class="blog_image"
-						style="background-image: url('https://atamerica.or.id/uploads/ngc_atamerica_activity/630f72ccc5b82_20220831214012-2.jpg');">
-					</div>
-					<div class="blog_content">
-						<div class="blog_post_title"><a href="blog_single.html">Art Helps Healing</a></div>
-						<div class="blog_post_text">
-							<p>Whether it is a signup flow, a multi-view stepper, or a monotonous data entry interface,
-								forms are one of the most important components of digital product design.</p>
-							<a href="blog_single.html" class="read_more">Read More <img src="assets/images/right.png"
-									alt=""></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<br>
-	<br>
-</body>
-
-</html>
+                    <div class="contact_form_container">
+                        <div class="form_title">
+                            <h2>Get in Touch</h2>
+                        </div>
+                        <form action="#" id="contact_form" class="contact_form">
+                            <div class="row contact_row">
+                                <div class="col-lg-7 contact_col">
+                                    <input type="text" class="form_input" placeholder="Name" required="required">
+                                </div>
+                                <div class="col-lg-7 contact_col mt-3">
+                                    <input type="email" class="form_input" placeholder="Email" required="required">
+                                </div>
+                                <div class="col-lg-11 mt-3">
+                                    <textarea class="form_input form_text" placeholder="Message"
+                                        required="required"></textarea>
+                                </div>
+                                <div class="col mt-4">
+                                    <button type="submit" class="form_button trans_200">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
