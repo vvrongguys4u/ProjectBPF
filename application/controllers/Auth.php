@@ -40,28 +40,28 @@ class Auth extends CI_Controller
     {
         $email = $this->input->post('email');
         $password = $this->input->post('password');
-
-        echo $email;
-        echo $password;
+        $user = $this->db->get_where('user', ['email' => $email])->row_array();
+        // echo $email;
+        // echo $password;
         // $user = $this->db->get_where('user', ['email' => $email])->row_array();
 
-        // if ($user) {
-        //     if (password_verify($password, $user['password'])) {
-        //         $data = [
-        //             'Email' => $user['Email'],
-        //             'Role' => $user['Role'],
-        //             'id' => $user['id'],
-        //         ];
-        //         $this->session->set_userdata($data);
-        //         redirect('Dashboard');
-        //     } else {
-        //         $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Incorrect password!</div>');
-        //         redirect('auth');
-        //     }
-        // } else {
-        //     $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Email not registered!</div>');
-        //     redirect('auth');
-        // }
+        if ($user) {
+            if (password_verify($password, $user['password'])) {
+                $data = [
+                    'Email' => $user['Email'],
+                    'Role' => $user['Role'],
+                    'id' => $user['id'],
+                ];
+                $this->session->set_userdata($data);
+                redirect('Dashboard');
+            } else {
+                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Incorrect password!</div>');
+                redirect('auth');
+            }
+        } else {
+            $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Email not registered!</div>');
+            redirect('auth');
+        }
     }
 
     public function logout()
