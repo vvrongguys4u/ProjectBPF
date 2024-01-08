@@ -49,8 +49,15 @@ class Auth extends CI_Controller
                     'Role' => $user['Role'],
                     'id' => $user['id'],
                 ];
+                
                 $this->session->set_userdata($data);
-                redirect('userdashboard');
+    
+                // Redirect based on user role
+                if ($email === 'admin@gmail.com' && $password === 'admin123') {
+                    redirect('admin/vw_admin');
+                } else {
+                    redirect('dashboard');
+                }
             } else {
                 $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Incorrect password!</div>');
                 redirect('auth');
@@ -60,6 +67,7 @@ class Auth extends CI_Controller
             redirect('auth');
         }
     }
+    
     
 
     public function logout()

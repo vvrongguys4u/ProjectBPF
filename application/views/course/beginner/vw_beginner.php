@@ -124,6 +124,36 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- The Quiz -->
+				<div class="col-lg-4 course_col">
+					<div class="course-beginner">
+						<div class="course_image" style="position: relative;"><a href="https://youtu.be/Rd3gQPtgW_0?si=JE2JV1s40bW1F1GS"><img src="assets/images/thumbnailBeginner4.jpg" alt=""><div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        					<img src="assets/images/play_big.png" alt="Play Video">
+   					 	</div>
+					</div>
+						<div class="course_body">
+							<div class="course_title"><a href="course.html">The Quiz</a></div>
+							<div class="course_info">
+								<ul>
+									<li><a href="instructors.html">5 questions</a></li>
+									<li><a href="#">English</a></li>
+								</ul>
+							</div>
+							<div class="course_text">
+								<p>The quiz that is entered is the material from the first to the last. Let's do it to work on quiz</p>
+							</div>
+						</div>
+						<div class="course_footer d-flex flex-row align-items-center justify-content-start">
+							<div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10</span>
+							</div>
+							<div class="course_rating ml-auto"><i class="fa fa-star"
+									aria-hidden="true"></i><span>4,5</span>
+							</div>
+							<div class="course_mark trans_200"><a href="https://forms.gle/9RDomU43ztuYTB9AA">Free</a></div>
+						</div>
+					</div>
+				</div>
 			</div>
 			</div>
 			</div>
