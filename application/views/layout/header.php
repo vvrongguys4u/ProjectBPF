@@ -82,7 +82,7 @@
                     <!-- User Section -->
                     <div class="user-section d-flex flex-row align-items-center">
                         <div class="user ml-2">
-                            <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                            <a href="<?= base_url('userdashboard'); ?>"><i class="fa fa-user" aria-hidden="true"></i></a>
                         </div>
                         <div class="user_greeting ml-2">
                             <?php
